@@ -730,7 +730,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            // Click 'AddToCartButtonButton'\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.AmazonComSNAPTAINSP650.AddToCartButtonButton.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementTopAtWindowTop);\r\n            Pages.AmazonComSNAPTAINSP650.AddToCartButtonButton.MouseClick();\r\n",
+                "Code": "            // Click 'AddToCartButtonButton'\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.AmazonComSNAPTAINSP650.AddToCartButtonButton.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementTopAtWindowTop);\r\n            Pages.AmazonComSNAPTAINSP650.AddToCartButtonButton.MouseClick();",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,

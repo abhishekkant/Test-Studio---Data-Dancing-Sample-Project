@@ -83,7 +83,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            StringBuilder sb = new StringBuilder();\r\n            Random rnd = new Random();\r\n            char ch;\r\n            for (int ctr = 0; ctr < 9; ctr++)\r\n            {\r\n                ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * rnd.NextDouble() + 65)));\r\n                sb.Append(ch);\r\n            }\r\n            sb.Append(\"@GMAIL.COM\");\r\n            this.SetExtractedValue(\"myRandomEmail\", sb.ToString());\r\n            this.SetExtractedValue(\"ConfirmEmail\", sb.ToString()); \r\n            // Enter text 'test' in 'Text'\r\n            Actions.SetText(Pages.TelerikUIForBlazor0.Text, \"\");\r\n            Pages.TelerikUIForBlazor0.Text.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementTopAtWindowTop);\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.TelerikUIForBlazor0.Text.Focus();\r\n            Pages.TelerikUIForBlazor0.Text.MouseClick();\r\n            Manager.Desktop.KeyBoard.TypeText(((string)(System.Convert.ChangeType(Data[\"myRandomEmail\"], typeof(string)))), 50, 100, true);\r\n",
+                "Code": "            StringBuilder sb = new StringBuilder();\r\n            Random rnd = new Random();\r\n            char ch;\r\n            for (int ctr = 0; ctr < 9; ctr++)\r\n            {\r\n                ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * rnd.NextDouble() + 65)));\r\n                sb.Append(ch);\r\n            }\r\n            sb.Append(\"@GMAIL.COM\");\r\n            this.SetExtractedValue(\"myRandomEmail\", sb.ToString());\r\n            this.SetExtractedValue(\"ConfirmEmail\", sb.ToString()); \r\n            // Enter text 'test' in 'Text'\r\n            Actions.SetText(Pages.TelerikUIForBlazor0.Text, \"\");\r\n            Pages.TelerikUIForBlazor0.Text.ScrollToVisible(ArtOfTest.WebAii.Core.ScrollToVisibleType.ElementTopAtWindowTop);\r\n            ActiveBrowser.Window.SetFocus();\r\n            Pages.TelerikUIForBlazor0.Text.Focus();\r\n            Pages.TelerikUIForBlazor0.Text.MouseClick();\r\n            Manager.Desktop.KeyBoard.TypeText(((string)(System.Convert.ChangeType(Data[\"myRandomEmail\"], typeof(string)))), 50, 100, true);",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -684,7 +684,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            // TelerikBlazorGrid: 'Data' items count 'Equals' '15'.\r\n            Pages.TelerikUIForBlazor1.Div.ControlAssert().NumberValue(\"DataItems.Count\", 15, ArtOfTest.Common.NumberCompareType.Equals);\r\n            \r\n",
+                "Code": "            // TelerikBlazorGrid: 'Data' items count 'Equals' '15'.\r\n            Pages.TelerikUIForBlazor1.Div.ControlAssert().NumberValue(\"DataItems.Count\", 15, ArtOfTest.Common.NumberCompareType.Equals);\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
