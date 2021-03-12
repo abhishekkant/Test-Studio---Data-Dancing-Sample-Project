@@ -255,19 +255,19 @@
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "86454467-1443-4af3-a023-8f8928128a44",
     "SourceControlRepository": {
-      "__type": "ArtOfTest.Common.TFSClient.TFSRepositoryInfo",
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
-        "RemotePath": "$/TestStudioWorld/Data Dancing",
-        "ServerType": 1,
+        "RemotePath": "https://github.com/ProgressTestStudio/Test-Studio---Data-Dancing-Sample-Project",
         "ServerInfo": {
-          "__type": "ArtOfTest.Common.TFSClient.TFSServerInfo",
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
           "__value": {
-            "ServerName": "https://amwieland.visualstudio.com/"
+            "ServerName": "https://github.com/ProgressTestStudio/Test-Studio---Data-Dancing-Sample-Project"
           }
-        }
+        },
+        "ServerType": 2
       }
     },
-    "IsOnline": false,
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
