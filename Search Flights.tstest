@@ -24,7 +24,8 @@
       "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
       "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
-      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "Data Dancing - Test Studio Sample Project\\libs\\Any-.Net-master\\Any\\bin\\Debug\\Any.dll"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -342,7 +343,7 @@
           "__value": {
             "Runtime ID": "fb1f5c79-3fe3-409f-a888-f1d643432016",
             "Description": "Click 'UiId50Link'",
-            "CustomDescription": null,
+            "CustomDescription": "Click Chicago",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
@@ -466,7 +467,7 @@
           "__value": {
             "Runtime ID": "f6b1a91e-eada-4f0e-80b5-12c18136a20d",
             "Description": "Enter text '11/11/2020' in 'AaLeavingOnText' - DataDriven: [$(Plus10Days)]",
-            "CustomDescription": null,
+            "CustomDescription": "Enter text '11/11/2020' in 'AaLeavingOnText' - DataDriven: [$(Plus10Days)]",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -870,13 +871,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "08726906-2aa6-468b-bec0-f21876ebb5d8",
-            "Description": "Verify element 'PTag' 'is' visible.",
+            "Runtime ID": "567b3671-7327-448c-874b-63b9e967e248",
+            "Description": "Verify 'TextContent' 'Contains' 'Choose flights' on 'AaPageTitleH1Tag'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
-                "IsVisible": true,
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Choose flights",
                 "DataBindVariableName": null,
                 "Timeout": 30000,
                 "CheckInterval": 500,
@@ -894,10 +897,10 @@
                   }
                 },
                 "Elements": {
-                  "verifyTarget": {
+                  "textTarget": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "verifyTarget",
+                      "Name": "textTarget",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
@@ -915,12 +918,12 @@
                       },
                       "Frame": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "cTuPbsn3BoFQqOIPE/5P4vOnYQ8=",
+                          "uniqueKey": "oPzO9QsN8tgmN1orS/zOBEG+PTM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PTag",
+                          "Name": "AaPageTitleH1Tag",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -931,13 +934,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=margin-bottom"
+                                        "Clause": "tagname=h1"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=p"
+                                        "Clause": "id=aa-pageTitle"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Choose flights"
                                       }
                                     }
                                   ],
@@ -947,14 +956,14 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/main[1]/div[1]/div[2]/p[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/main[1]/div[1]/div[1]/h1[1]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
                                 "Resolution": "1920, 1080",
                                 "BroweserType": 10,
-                                "Image": "8C96D5ABED72BA609C22E0E771FC33DBF5471DB92B32B38405ED0581AD2E5DF8",
+                                "Image": "AC8E596BF9716610598AFCF4B9167F92525CCE16B67116A80B640F075FC39DC7",
                                 "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.17763.0",
@@ -985,7 +994,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Search Flightsfs5esblb.ft3",
+            "StepImageKey": "Search Flightsf5vupsuy.w2p",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
