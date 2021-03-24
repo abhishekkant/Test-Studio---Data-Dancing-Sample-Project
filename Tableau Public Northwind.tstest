@@ -12,17 +12,20 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestStudio.Translators.Common, Version=2020.2.804.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "ArtOfTest.WebAii, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2021.1.309.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c",
-      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "Data Dancing - Test Studio Sample Project\\libs\\Any-.Net-master\\Any\\bin\\Debug\\Any.dll"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -75,6 +78,292 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "01dd49ee-da68-4349-980d-b01e8217ec11",
+            "Description": "Click 'SvgTag'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": true,
+                "ScrollToVisibleType": 2,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://public.tableau.com/profile/ricardo.redd",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
+                          "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "NorthwindShippingDashboard"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
+                        "__value": {
+                          "FrameInfo": {
+                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
+                            "__value": {
+                              "_index": 0,
+                              "_name": "Frame~",
+                              "_id": "",
+                              "TestStudioTag": "",
+                              "_baseURL": "",
+                              "_query": "",
+                              "_useQuery": false,
+                              "_usesBaseUrlHost": false
+                            }
+                          },
+                          "FriendlyName": "FrameFrame00"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "cHifDlhicEOkSTixbiVIgeagpKM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SvgTag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=tableau_base_widget_LegacyCategoricalQuickFilter_0"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=svg:0"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/span[1]/div[2]/span[1]/svg[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 10,
+                                "Image": "A5A405828626D05472AC96252C70F9EA28ADD863DD1D8DBF7885AD10BAC66381",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17763.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Tableau Public Northwind1frpw3ps.ii5",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "4666a0a0-8083-4c2d-a9b3-c19cce61a3b2",
+            "Description": "Click 'LoadingGlassPaneDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": true,
+                "ScrollToVisibleType": 2,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "SearchByImageFirst": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://public.tableau.com/profile/ricardo.redd",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
+                          "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "NorthwindShippingDashboard"
+                        }
+                      },
+                      "Frame": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
+                        "__value": {
+                          "FrameInfo": {
+                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
+                            "__value": {
+                              "_index": 0,
+                              "_name": "Frame~",
+                              "_id": "",
+                              "TestStudioTag": "",
+                              "_baseURL": "",
+                              "_query": "",
+                              "_useQuery": false,
+                              "_usesBaseUrlHost": false
+                            }
+                          },
+                          "FriendlyName": "FrameFrame00"
+                        }
+                      },
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "bZ6w4wCYGlPw9BXhNTHiZvJc+pc=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoadingGlassPaneDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=loadingGlassPane"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 10,
+                                "Image": "85252A028CD49FF220826542A0FB20BD2041803D2772553B9CABDFBAC5B3E29F",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17763.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Tableau Public Northwindso5s2eyb.nai",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "9b9b5aa5-706f-42d6-86f2-0fd8bf96c5ca",
             "Description": "Click 'CanvasTag'",
             "CustomDescription": null,
@@ -111,7 +400,7 @@
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDashboard",
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
                           "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
@@ -125,22 +414,22 @@
                             "__type": "ArtOfTest.WebAii.Core.FrameInfo",
                             "__value": {
                               "_index": 0,
-                              "_name": "Frame_0",
+                              "_name": "Frame~",
                               "_id": "",
                               "TestStudioTag": "",
-                              "_baseURL": "https://public.tableau.com/views/northwind_dashboard/NorthwindDashboard",
-                              "_query": ":embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true&:language=en&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+                              "_baseURL": "",
+                              "_query": "",
                               "_useQuery": false,
                               "_usesBaseUrlHost": false
                             }
                           },
-                          "FriendlyName": "FrameFrame0"
+                          "FriendlyName": "FrameFrame00"
                         }
                       },
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "HMeODNup4Rkcfm//AxkvPIo4FZ8=",
+                          "uniqueKey": "9IJtX/zAFOOiX10lJlMishHU88Y=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "CanvasTag",
@@ -154,25 +443,37 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=view13033963739058126919_13777303714451913832"
+                                        "Clause": "class=tab-tvView tvimagesNS"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagIndex=canvas:1"
+                                        "Clause": "aria-describedby=^instructions"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "class=tvimagesContainer"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    2
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[2]/canvas[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[2]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
@@ -191,7 +492,7 @@
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlCanvas",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -206,7 +507,7 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -255,7 +556,7 @@
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDashboard",
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
                           "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
@@ -269,16 +570,16 @@
                             "__type": "ArtOfTest.WebAii.Core.FrameInfo",
                             "__value": {
                               "_index": 0,
-                              "_name": "Frame_0",
+                              "_name": "Frame~",
                               "_id": "",
                               "TestStudioTag": "",
-                              "_baseURL": "https://public.tableau.com/views/northwind_dashboard/NorthwindDashboard",
-                              "_query": ":embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true&:language=en&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+                              "_baseURL": "",
+                              "_query": "",
                               "_useQuery": false,
                               "_usesBaseUrlHost": false
                             }
                           },
-                          "FriendlyName": "FrameFrame0"
+                          "FriendlyName": "FrameFrame00"
                         }
                       },
                       "FindExpression": {
@@ -350,7 +651,7 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -401,7 +702,7 @@
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDashboard",
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
                           "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
@@ -415,16 +716,16 @@
                             "__type": "ArtOfTest.WebAii.Core.FrameInfo",
                             "__value": {
                               "_index": 0,
-                              "_name": "Frame_0",
+                              "_name": "Frame~",
                               "_id": "",
                               "TestStudioTag": "",
-                              "_baseURL": "https://public.tableau.com/views/northwind_dashboard/NorthwindDashboard",
-                              "_query": ":embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true&:language=en&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+                              "_baseURL": "",
+                              "_query": "",
                               "_useQuery": false,
                               "_usesBaseUrlHost": false
                             }
                           },
-                          "FriendlyName": "FrameFrame0"
+                          "FriendlyName": "FrameFrame00"
                         }
                       },
                       "FindExpression": {
@@ -494,7 +795,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -544,7 +845,7 @@
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDashboard",
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
                           "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
@@ -558,16 +859,16 @@
                             "__type": "ArtOfTest.WebAii.Core.FrameInfo",
                             "__value": {
                               "_index": 0,
-                              "_name": "Frame_0",
+                              "_name": "Frame~",
                               "_id": "",
                               "TestStudioTag": "",
-                              "_baseURL": "https://public.tableau.com/views/northwind_dashboard/NorthwindDashboard",
-                              "_query": ":embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true&:language=en&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+                              "_baseURL": "",
+                              "_query": "",
                               "_useQuery": false,
                               "_usesBaseUrlHost": false
                             }
                           },
-                          "FriendlyName": "FrameFrame0"
+                          "FriendlyName": "FrameFrame00"
                         }
                       },
                       "FindExpression": {
@@ -637,7 +938,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -686,7 +987,7 @@
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDashboard",
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
                           "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
@@ -700,16 +1001,16 @@
                             "__type": "ArtOfTest.WebAii.Core.FrameInfo",
                             "__value": {
                               "_index": 0,
-                              "_name": "Frame_0",
+                              "_name": "Frame~",
                               "_id": "",
                               "TestStudioTag": "",
-                              "_baseURL": "https://public.tableau.com/views/northwind_dashboard/NorthwindDashboard",
-                              "_query": ":embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true&:language=en&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+                              "_baseURL": "",
+                              "_query": "",
                               "_useQuery": false,
                               "_usesBaseUrlHost": false
                             }
                           },
-                          "FriendlyName": "FrameFrame0"
+                          "FriendlyName": "FrameFrame00"
                         }
                       },
                       "FindExpression": {
@@ -781,7 +1082,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -832,7 +1133,7 @@
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDashboard",
+                          "Fragment": "#!/vizhome/northwind_dashboard/NorthwindDas",
                           "Title": "Northwind Shipping Dashboard - Ricardo Redd | Tableau Public",
                           "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
@@ -907,7 +1208,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,

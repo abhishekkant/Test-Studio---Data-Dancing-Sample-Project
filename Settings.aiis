@@ -15,7 +15,7 @@
     "CodeGenerationElementIdentificationType": 1,
     "UrlHistory": [],
     "AbsoluteDragDropRecording": true,
-    "ShowStoryboardHorizontalLayout": false,
+    "ShowStoryboardHorizontalLayout": true,
     "ImageScalePercentage": 75,
     "SkipTranslatorsOptimization": false,
     "SelectedIdentificaitonScheme": "Html",
@@ -216,7 +216,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "https://ptdemositeuat.constellationfs.com/",
+    "RecorderBaseUrl": "",
     "IsStoryBoardCapturingEnabled": true,
     "IsElementImageCapturingEnabled": true,
     "UseScreenshotCache": true,
